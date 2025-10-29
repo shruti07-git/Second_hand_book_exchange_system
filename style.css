@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Form Styles */
+form input, form textarea, form select, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+/* Book Card Grid */
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    width: calc(33.333% - 13.3px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    transition: box-shadow 0.2s;
+}
+
+.book-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.book-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.book-card p {
+    margin: 5px 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* Link Styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Links */
+.navbar {
+    background: #4CAF50;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #d4edda;    /* Light green background */
+    color: #155724;               /* Dark green text */
+    border: 1px solid #c3e6cb;   /* Green border */
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
